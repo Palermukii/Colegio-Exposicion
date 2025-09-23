@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Escuela Técnica N°35 Ing. Eduardo Latzina</title>
+  <meta name="description" content="Landing oficial de la Escuela Técnica N°35 Ing. Eduardo Latzina. Orientaciones en Computación y Automotores. Inscripciones, noticias y contacto." />
+  <link rel="icon" href="img/Logo.png" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+  <script defer src="https://kit.fontawesome.com/a2c6b1b3d0.js" crossorigin="anonymous"></script>
+  <script defer src="js/script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a href="#" class="brand" aria-label="Inicio ETN35">
+        <img src="img/Logo.png" alt="Logo ETN35 Eduardo Latzina" class="brand__logo" />
+        <span class="brand__name">ETN35 <small>Ing. Eduardo Latzina</small></span>
+      </a>
+  
+      <nav class="nav" aria-label="Navegación principal">
+        <button class="nav__toggle" aria-expanded="false" aria-controls="navList">
+          <span class="sr-only">Abrir menú</span><i class="fa-solid fa-bars"></i>
+        </button>
+        <ul id="navList" class="nav__list">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#orientaciones">Orientaciones</a></li>
+          <li><a href="#noticias">Noticias</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+          <li>
+            <!-- Nuevo switch modo oscuro/claro -->
+            <div class="dark-mode" id="themeSwitcher">
+              <div class="circle">
+                <ion-icon class="sun" name="sunny"></ion-icon>
+                <ion-icon class="moon" name="moon"></ion-icon>
+              </div>
+            </div>
+          </li>
+        </ul>
+        
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section id="inicio" class="hero">
+      <img src="img/ET35-Frente.png" alt="Fachada ETN35 Eduardo Latzina" class="hero__bg" />
+      <div class="hero__glass">
+        <h1>Formamos técnicos para el futuro</h1>
+        <p>Escuela Técnica N.º 35 &mdash; Orientaciones en <strong>Computación</strong> y <strong>Automotores</strong>.<br/> Trayectoria, práctica y comunidad desde 1951.</p>
+        <div class="hero__badges">
+          <span class="badge">Nivel Medio Técnico</span>
+          <span class="badge">Orientaciones desde 3.º año</span>
+          <span class="badge">Hasta 6.º año</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ORIENTACIONES -->
+    <section id="orientaciones" class="section">
+      <div class="wrap">
+        <header class="section__head">
+          <h2>Nuestras Orientaciones</h2>
+          <p>Desde 3.º año podés elegir tu camino técnico. Planes de estudio hasta 6.º año.</p>
+        </header>
+
+        <div class="cards">
+          <article class="card">
+            <div class="card__icon"><i class="fa-solid fa-laptop-code"></i></div>
+            <h3>Computación</h3>
+            <p>Programación, redes, sistemas informáticos y tecnologías de la información.</p>
+            <ul class="card__list">
+              <li>Base sólida en software y hardware</li>
+              <li>Prácticas en laboratorios</li>
+            </ul>
+            <div class="card__cta">
+              <a class="btn btn--ghost" href="#" aria-disabled="true" title="Disponible próximamente">Plan de estudios (próximamente)</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__icon"><i class="fa-solid fa-car"></i></div>
+            <h3>Automotores</h3>
+            <p>Mecánica automotriz, sistemas eléctricos y diagnóstico vehicular.</p>
+            <ul class="card__list">
+              <li>Sistemas de inyección y electrónica</li>
+              <li>Seguridad e higiene</li>
+            </ul>
+            <div class="card__cta">
+              <a class="btn btn--ghost" href="#" aria-disabled="true" title="Disponible próximamente">Plan de estudios (próximamente)</a>
+            </div>
+          </article>
+        </div>
+
+        <aside class="info">
+          <p><strong>Nota:</strong> Las orientaciones comienzan a partir de <strong>3.º año</strong> y se extienden hasta <strong>6.º año</strong>. Cuando nos pases las materias, integramos los planes en esta misma sección.</p>
+        </aside>
+      </div>
+    </section>
+
+    <!-- NOTICIAS -->
+    <section id="noticias" class="section section--alt">
+      <div class="wrap">
+        <header class="section__head">
+          <h2>Noticias &amp; Novedades</h2>
+          <p>Espacio para informar inscripciones, actos, olimpíadas y comunicados.</p>
+        </header>
+
+        <div class="news">
+          <!-- Placeholders estáticos -->
+          <article class="news__item">
+            <time datetime="2025-09-01">01 Sep 2025</time>
+            <h3>Inscripciones 2026</h3>
+            <p>Próximamente publicaremos fechas y requisitos de inscripción.</p>
+          </article>
+          <article class="news__item">
+            <time datetime="2025-08-15">15 Ago 2025</time>
+            <h3>Olimpíadas de Programación</h3>
+            <p>Felicitaciones al equipo por su participación. Más info a la brevedad.</p>
+          </article>
+        </div>
+
+        <div class="news__more">
+          <a class="btn" href="#" aria-disabled="true" title="Sección de noticias en preparación">Ver más noticias (próximamente)</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="section">
+      <div class="wrap">
+        <header class="section__head">
+          <h2>Contacto</h2>
+          <p>Vení a conocernos o escribinos por cualquier consulta.</p>
+        </header>
+
+        <div class="contact">
+          <div class="contact__info">
+            <ul class="contact__list">
+              <li><i class="fa-solid fa-location-dot"></i> Av. Lope de Vega 2150, Montecastro, CABA</li>
+              <li><i class="fa-solid fa-phone"></i> Teléfono: <a href="tel:+541145675838">4567-5838</a></li>
+              <li><i class="fa-brands fa-instagram"></i> <a target="_blank" rel="noopener" href="https://www.instagram.com/et.35.ing.eduardo.latzina/?hl=es">Instagram oficial</a></li>
+              <li><i class="fa-regular fa-clock"></i> Horarios: Lunes, Miércoles y Viernes de 13:30 a 17:00</li>
+            </ul>
+
+            <!-- Form estático via mailto (sin backend) -->
+            <form class="contact__form" id="mailForm">
+              <h3>Escribinos</h3>
+              <label>
+                Tu email
+                <input type="email" id="email" placeholder="tu@email.com" required />
+              </label>
+              <label>
+                Mensaje
+                <textarea id="mensaje" rows="4" placeholder="Contanos en qué te podemos ayudar" required></textarea>
+              </label>
+              <button type="submit" class="btn">Enviar por correo</button>
+              <p class="form__note">* Se abrirá tu cliente de correo con el mensaje listo (sin guardar datos).</p>
+            </form>
+          </div>
+
+          <div class="contact__map">
+            <iframe
+              title="Mapa ETN35"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps?q=Av.%20Lope%20de%20Vega%202150%2C%20CABA&output=embed">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer__cols">
+      <div>
+        <strong>Escuela Técnica 35 &mdash; Eduardo Latzina</strong>
+        <p>Formando técnicos desde 1951</p>
+      </div>
+      <ul class="footer__links">
+        <li><a href="#orientaciones">Orientaciones</a></li>
+        <li><a href="#noticias">Noticias</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </div>
+    <div class="wrap footer__copy">
+      <small>&copy; <span id="year"></span> ETN35 &middot; Todos los derechos reservados.</small>
+    </div>
+  </footer>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
